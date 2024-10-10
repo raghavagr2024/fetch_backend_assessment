@@ -1,0 +1,17 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I decided to use python because of its ease of readability while programming. Also, Python is often cheap in terms of cloud functionality, making it ideal for both cost and readability. Furthermore, the flask library allows for quick API development. 
+
+2. What are the advantages and disadvantages of your solution?
+
+Currently, I decided to use a dictionary because of its ease to convert to JSON. Furthermore, the setup of using the timestamp as keys allows for easy sorting and computations. 
+Also, a structure of using a dictionary will make it easier to scale by converting this dictionary into a key for the user in a database, which would save time and prevent rewrites. 
+A disadvantage to my solution is the lack of exception handling for inaccurate inputs, like the addition of negative points or incorrect formatting, which might make it prone to errors but can be easily fixed.
+Another obvious error is scaling with multithreading: although flask is easy to work with, it is not a wise choice for large scale operations because it is single threaded. Because of this, I would look for multi threaded solutions, which might require me to add multithreading manually.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+While in junior year, I decided to create a takeout app for my school. Students would be able to order food and pick it up while admins had a way to control the flow of the orders coming in. While working on this project, I thought about scalability. 
+Because I was using Flutter, I decided to go with Firebase, since it was also by Google. A problem I faced was when I had to decide the way I would structure my database.
+Before this project, I had never worked with a database before. After careful thought and multiple iterations, I was able to create a structure that would allow for an easily readable database while also having functions where I could easily filter through my items/users.
+This structure was very clear to read from and made my life much easier when working with the data than when I used my first iteration. By deciding to categorize based on the variables that would change the least, I was able to create set categories that made my filtering as efficient as possible.
